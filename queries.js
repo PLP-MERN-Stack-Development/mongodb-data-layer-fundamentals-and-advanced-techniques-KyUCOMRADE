@@ -1,7 +1,7 @@
 // queries.js
 
 const { MongoClient } = require('mongodb');
-const uri = 'mongodb+srv://plpUser:plpPassword123@plpcluster.xxxxx.mongodb.net/plp_bookstore?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://plp_user:50064516jc@plpcluster.28kffzg.mongodb.net/?retryWrites=true&w=majority&appName=plpCluster';
 
 async function runQueries() {
   const client = new MongoClient(uri);
