@@ -57,3 +57,17 @@ Complete all the exercises in this assignment and push your code to GitHub using
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+# 📚 PLP Bookstore (MongoDB Project)
+
+## Overview
+This project demonstrates MongoDB CRUD operations, advanced queries, aggregation pipelines, and indexing using Node.js and MongoDB Atlas.
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+2. Run `npm install mongodb`
+3. Update your connection URI inside `insert_books.js` and `queries.js`
+4. Insert sample data:
+   ```bash
+   node insert_books.js
